@@ -10,7 +10,7 @@
  
 
   <!-- Modal Component -->
-  <b-modal id="modal1" title="Results">
+  <!-- <b-modal id="modal1" title="Results"> -->
 
     <div>
  
@@ -26,12 +26,12 @@
             </table>
       </div>
 
-  </b-modal>
+  <!-- </b-modal> -->
 </div>                                                                                             
 
   <button class="add" @click="add">add</button>
   <button class="reset" @click="reset">Reset</button>
-  <b-btn class="table" v-b-modal.modal1>See Table</b-btn>
+  <!-- <b-btn class="table" v-b-modal.modal1>See Table</b-btn> -->
 
   <span class="lrate">Rate <input class="lrate" v-model="learningRate" type="number"> </span>
 
@@ -62,7 +62,7 @@ export default {
         vals_x: [],
         vals_y: [],
         values: [],
-        learningRate: 0.7,
+        learningRate: 0.4,
 
 
       }
@@ -95,10 +95,6 @@ export default {
 
           m = tf.variable(tf.scalar(sketch.random(1)))
           b = tf.variable(tf.scalar(sketch.random(1)))
-
-    
-
-
         }
 
         function loss(pred, labels) {

@@ -2,9 +2,7 @@
 
   <div id="app">
      <Header />  
-      <div class="right">
-          <control-panel />
-       </div> 
+      <div class="right"></div> 
     
   
        <router-view/>
@@ -17,12 +15,14 @@
 
 <script>
 import Header from './components/header'
-import ControlPanel from './components/controlPanel'
+
+
+
 
 export default {
   name: 'app',
   components: {
-    Header, ControlPanel
+    Header
   }
   
 }

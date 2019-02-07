@@ -4,6 +4,9 @@
         <div id="nav">
             <router-link to="/classification">Image Classification</router-link>
             <router-link to="/model">Regression</router-link>
+            <router-link to="/about">About</router-link>
+            <router-link to="/controlPanel">Control Panel</router-link>
+           
         </div>
 
     </header>

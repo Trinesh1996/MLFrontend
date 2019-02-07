@@ -1,7 +1,8 @@
 <template>
  <div id="buttons"> 
      <span>{{msg}}</span> <br />
-        <button class="analytics"><router-link to="/graphs">Analytics</router-link></button>
+        <button class="analytics"><router-link to="/Graphs">Analytics</router-link></button>
+  
         <!-- <button class="addData" @click="dataset">Analytics</button> -->
         <button class="refresh" @click="refresh">Refresh</button>
 
