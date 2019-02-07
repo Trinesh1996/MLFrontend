@@ -19,10 +19,6 @@
 import * as tf from '@tensorflow/tfjs';
 import p5 from 'p5'
 
-
-
-
-
 export default {
     name: "control_panel",
 

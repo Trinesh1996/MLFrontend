@@ -62,7 +62,7 @@ export default {
         vals_x: [],
         vals_y: [],
         values: [],
-        learningRate: 0.1,
+        learningRate: 0.7,
 
 
       }
@@ -218,7 +218,7 @@ export default {
           let Y = localStorage.getItem("y")
           this.vals_y.push(Y)
 
-
+        
           var x = ['x'];
           let y = ['y']
 
@@ -232,7 +232,7 @@ export default {
 
 
           for (let i = 0; i < splitX.length; i++) {
-            // console.log(split[i])
+            console.log("X: " + splitX[i])
 
             let int = parseFloat(splitX[i])
             // console.log(int)
@@ -241,7 +241,7 @@ export default {
           }
 
           for (let i = 0; i < splitY.length; i++) {
-            // console.log(split[i])
+            console.log("Y: " + splitY[i])
 
             let int = parseFloat(splitY[i])
             // console.log(int)
@@ -252,8 +252,8 @@ export default {
 
           this.values.push(result)
 
-
-          console.log(this.values);
+      // console.log(result)
+          // console.log(this.values);
 
 
 
