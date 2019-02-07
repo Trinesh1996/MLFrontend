@@ -1,5 +1,8 @@
 # client
 
+Link to Demo:
+https://mlfront-end.herokuapp.com
+
 ## Project setup
 ```
 npm install
